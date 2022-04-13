@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset='utf-8'>
+    <title>To Do List</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+</head>
+<body>
+        <div class="container">
+            <div class="yellow-box"></div>
+            <div class="todo-main">
+                <div class="black"><h1>To-do list</h1></div>
+                <div class="buttons">
+                    <div class="sort-button">
+                        <button class="sort" onclick="sortListDir()"></button>
+                    </div>
+                    <button class="removeAll"></button>   
+                </div>
+                  </div>
+                    <div class="list">
+                      <input id="myInput" class="grey-box" type="text">
+                      <ul class="taskList"></ul>
+                    </div>
+                    <button id="btn" class="purple">
+                        <span class="add">Добавить</span>
+                        <span class="circle">
+                            <span class="plus">+</span>
+                        </span>
+                    </button>
+        </div> 
+    <script src='main.js'></script>
+</body>
+</html>
